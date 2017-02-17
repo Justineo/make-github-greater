@@ -1,0 +1,25 @@
+{
+  "title": "Make GitHub Greater",
+  "name": "make-github-greater",
+  "version": "1.0.0",
+  "description": "Let's make GitHub greater.",
+  "main": "index.js",
+  "author": "Justineo",
+  "homepage": "https://justineo.github.io/make-github-greater/",
+  "permissions": {
+    "multiprocess": true
+  },
+  "preferences": [
+    {
+      "name": "domains",
+      "title": "Applicable Domains",
+      "type": "string",
+      "description": "Comma-separated domain list. (github.com is always included)"
+    }
+  ],
+  "engines": {
+    "firefox": ">=38.0a1",
+    "fennec": ">=38.0a1"
+  },
+  "license": "MIT"
+}

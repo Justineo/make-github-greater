@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>Author</key>
+    <string>Justineo</string>
+    <key>Builder Version</key>
+    <string>12602.3.12.0.1</string>
+    <key>CFBundleDisplayName</key>
+    <string>Make GitHub Greater</string>
+    <key>CFBundleIdentifier</key>
+    <string>justineo.github.io.make-github-greater</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>CFBundleShortVersionString</key>
+    <string>1.0.0</string>
+    <key>CFBundleVersion</key>
+    <string>1.0.0</string>
+    <key>Content</key>
+    <dict>
+      <key>Scripts</key>
+      <dict>
+        <key>End</key>
+        <array>
+          <string>kolor.js</string>
+          <string>main.js</string>
+        </array>
+      </dict>
+    </dict>
+    <key>Description</key>
+    <string>Let's make GitHub greater.</string>
+    <key>DeveloperIdentifier</key>
+    <string>0000000000</string>
+    <key>ExtensionInfoDictionaryVersion</key>
+    <string>1.0</string>
+    <key>Permissions</key>
+    <dict>
+      <key>Website Access</key>
+      <dict>
+        <key>Allowed Domains</key>
+        <array>
+          <string>http://github.com/*</string>
+          <string>https://github.com/*</string>
+        </array>
+        <key>Include Secure Pages</key>
+        <true/>
+        <key>Level</key>
+        <string>Some</string>
+      </dict>
+    </dict>
+    <key>Website</key>
+    <string>https://justineo.github.io/make-github-greater</string>
+  </dict>
+</plist>

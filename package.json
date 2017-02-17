@@ -1,0 +1,29 @@
+{
+  "name": "make-github-greater",
+  "version": "1.0.0",
+  "description": "Let's make GitHub greater.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "GitHub"
+  ],
+  "devDependencies": {
+    "babel-preset-es2015": "^6.3.13",
+    "datauri": "^1.0.4",
+    "del": "^2.2.0",
+    "gulp": "^3.8.9",
+    "gulp-babel": "^6.1.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-replace": "^0.5.4",
+    "gulp-uglify": "^1.5.1",
+    "merge-stream": "^1.0.0",
+    "plist": "^2.0.1",
+    "rename": "^1.0.3",
+    "run-sequence": "^1.1.5"
+  },
+  "author": "Justineo (justice360@gmail.com)",
+  "license": "MIT"
+}
