@@ -1,6 +1,6 @@
 {
   "name": "make-github-greater",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Let's make GitHub greater.",
   "main": "index.js",
   "scripts": {

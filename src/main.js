@@ -97,11 +97,11 @@ function updateStyle(backgroundColor) {
 `;
 }
 
+let current = localStorage.getItem(ITEM_KEY);
 function load() {
   style = document.createElement('style');
   document.body.appendChild(style);
 
-  let current = localStorage.getItem(ITEM_KEY);
   if (current) {
     updateStyle(kolor(current));
   }
@@ -117,6 +117,7 @@ function init() {
   picker.type = 'color';
   document.body.appendChild(picker);
   picker.style.cssText = `position: absolute; top: -${picker.offsetHeight}px; left: -${picker.offsetWidth}px;`;
+  picker.value = current;
   picker.addEventListener('input', () => {
     let {value} = picker;
     localStorage.setItem(ITEM_KEY, value);

@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name Make GitHub Greater
 // @namespace https://justineo.github.io/
-// @version 1.0.0
+// @version 1.0.1
 // @description Let's make GitHub greater.
 // @author Justineo(justice360@gmail.com)
 // @match https://github.com/*
