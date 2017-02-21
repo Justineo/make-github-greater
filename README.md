@@ -13,7 +13,7 @@ Double click the empty space on the site header and choose your own background c
 
 * [Chrome extension](https://chrome.google.com/webstore/detail/make-github-greater/emijicijbkhnobkceaeaekiiapnkdnlp)
 * [Firefox add-on](https://addons.mozilla.org/zh-CN/firefox/addon/make-github-greater/)
-* [Opera extension](https://addons.opera.com/zh-cn/extensions/details/github-hovercard/)
+* [Opera extension](https://addons.opera.com/zh-cn/extensions/details/make-github-greater/)
 * [Userscript](https://justineo.github.io/make-github-greater/userscript/dist/make-github-greater.user.js)
 
 ### Manual installation
