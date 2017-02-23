@@ -36,10 +36,6 @@ Double click the empty space on the site header and choose your own background c
 
     It's because Make GitHub Greater uses `webNavigation` module to dynamically inject content scripts (to support GitHub Enterprise). Make GitHub Greater won't track or record any of these private data.
 
-* Why can Make GitHub Greater's demo page find out I have installed the extension or not?
-
-    In Chrome/Opera it's allowed to get this information through the API so that the demo page can find out if the user has installed Make GitHub Greater. It's all about user experience and the extension itself won't track or record these data.
-
 * Why access token isn't working for me?
 
     Now Make GitHub Greater is saving user's private access token into `localStorage`. `localStorage` has a limit of 5MB and the problem might be other extensions have consumed too much storage that Make GitHub Greater failed to save access tokens.
