@@ -34,7 +34,7 @@ function getCommentHandler() {
 }
 
 gulp.task('userscript:prepare', function () {
-  var main = gulp.src('./main.js')
+  var main = gulp.src('./src/main.js')
     .pipe(babel({ presets: ['es2015'] }))
     .pipe(rename('main.userscript.js'))
     .pipe(gulp.dest('./tmp'));
