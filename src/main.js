@@ -115,9 +115,6 @@ function init() {
 
   let picker = document.createElement('input');
   picker.type = 'color';
-  document.body.appendChild(picker);
-  picker.style.cssText = `position: absolute; top: -${picker.offsetHeight}px; left: -${picker.offsetWidth}px;`;
-  picker.value = current;
   picker.addEventListener('input', () => {
     let {value} = picker;
     localStorage.setItem(ITEM_KEY, value);
