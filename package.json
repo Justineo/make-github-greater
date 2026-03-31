@@ -13,7 +13,7 @@
     "babel-preset-es2015": "^6.3.13",
     "datauri": "^1.0.4",
     "del": "^2.2.0",
-    "gulp": "^3.8.9",
+    "gulp": "^5.0.0",
     "gulp-babel": "^6.1.1",
     "gulp-concat": "^2.6.0",
     "gulp-rename": "^1.2.2",
