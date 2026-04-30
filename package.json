@@ -20,7 +20,7 @@
     "gulp-replace": "^0.5.4",
     "gulp-uglify": "^1.5.1",
     "merge-stream": "^1.0.0",
-    "plist": "^2.0.1",
+    "plist": "^4.0.0",
     "rename": "^1.0.3",
     "run-sequence": "^1.1.5"
   },
